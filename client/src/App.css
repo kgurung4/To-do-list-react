@@ -1,0 +1,47 @@
+body {
+  background-color: blanchedalmond;
+  font-family: American Typewriter, serif;
+}
+.title {
+  text-align: center;
+}
+h2 {
+  font-weight: normal;
+  align-items: center;
+}
+.box-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.to-do-box {
+  width: 500px;
+  height: 500px;
+  background-color: burlywood;
+  padding: 30px;
+}
+.task-editor-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-editor {
+  height: 60px;
+  padding: auto;
+}
+
+button {
+  appearance: button;
+  border-radius: 16px;
+  border: solid transparent;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  color: aliceblue;
+  box-shadow: wheat 2px 5px;
+  width: 100px;
+}
+button:active {
+  transform: translateY(2px);
+  box-shadow: none;
+}
